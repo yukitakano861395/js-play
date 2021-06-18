@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+function filter(numList) {
+  let result = []; 
+  for(let i = 0,l = numList.length;  i < l; i++){
+    if(numList[i] >= 5){
+    result.push(numList[i]);
+  }
+  }
+  return result;
+}
+const result = filter([4,3,7,5,3,1,6,8]);
+console.log(result);
+  </script>
+</body>
+</html>
